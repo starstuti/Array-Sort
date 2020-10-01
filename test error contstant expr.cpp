@@ -1,6 +1,6 @@
 #include<stdio.h>
-
-void int main()
+#include<algorithm>
+/*void int main()
 {
 	int n, i, j, c;
 	scanf("%d", &n);
@@ -53,4 +53,8 @@ void int main()
 	{
 		printf("%d\t", sort[n-i-1]);
 	}     
-}
+}*/
+//You can also use SORT function directly.
+//Here is the code.
+sort(arr,arr+n);
+//where arr is the name of the array and n is the size of array.
